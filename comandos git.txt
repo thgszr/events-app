@@ -1,0 +1,54 @@
+git init
+Reinitialized existing Git repository in D:/Projetos/events-app/.git/
+
+git add README.md
+
+git commit -m "first commit"
+On branch master
+nothing to commit, working tree clean
+
+git branch -M 'main'
+
+git remote add origin https://github.com/thgszr/events-app.git
+
+git push -u origin 'main'
+
+info: please complete authentication in your browser...
+Enumerating objects: 24, done.
+Counting objects: 100% (24/24), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (23/23), done.
+Writing objects: 100% (24/24), 299.08 KiB | 6.50 MiB/s, done.
+Total 24 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/thgszr/events-app.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+git branch
+* main
+
+git checkout -b develop
+Switched to a new branch 'develop'
+
+git add . 
+
+git commit -m "Desenvolvimento"
+
+[develop fd2ac94] Desenvolvimento
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 teste.txt
+PS D:\Projetos\events-app> git push origin develop
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 271 bytes | 271.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'develop' on GitHub by visiting:
+remote:      https://github.com/thgszr/events-app/pull/new/develop
+remote:
+To https://github.com/thgszr/events-app.git
+ * [new branch]      develop -> develop
+ 
